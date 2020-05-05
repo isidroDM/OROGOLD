@@ -11,7 +11,11 @@
    width:260px; 
    height:8vh; 
 }
-
+#header{
+    position: fixed;
+    width: 100%;
+    z-index: 15;
+}
 #header>div{
     padding: 20px;
     background-color:black;
@@ -71,7 +75,7 @@ justify-content : center;
 align-items : center;
 }
 .formulario{
-    display:inline-block; 
+    /*display:inline-block; */
     padding: 45px 29px;
     
     background-color: white;
@@ -117,4 +121,31 @@ align-items : center;
     background-color: white;
     border-color: #AA8543;
     color:black;
+}
+/* ------------------------------------------Reservar*/
+/*------------------------------------------Tratamientos */
+.tratamientos{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+#tituloTratamientos{
+    color: #AA8543;
+    font-size: 75px;
+    
+}
+.textoTratamientos{
+    font-size: 35px;
+}
+.imgCircular{
+    height: 250px;
+    width: 250px;
+}
+.subTratamientos{
+    color: #AA8543;
+    font-size: 40px;
+    font-weight: bold;
 }

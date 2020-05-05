@@ -23,7 +23,9 @@
                       ?>
             </div>
             <div id="tratamientos">
-                
+                <?php 
+                            include_once './View/tratamientos.php';
+                      ?>
             </div>
             <div id="quienesSomos">
                 
