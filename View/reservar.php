@@ -8,17 +8,17 @@
     </div>
     <div class="col-sm-6 formularioPadre">
         <div class="formulario form-group"> 
-            <form>
+            <form method="POST" action="Controller/crearCitasController.php">
                 <b><p style="font-size: 40px; font-family: Verdana;">Reserva ahora tu cita</p></b>
 
                 <div class="form-group">
-                    <input type="text" class="form-control reservaInput" placeholder="nombre">
+                    <input type="text" class="form-control reservaInput" placeholder="nombre" name="nombre" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control reservaInput" placeholder="email">
+                    <input type="text" class="form-control reservaInput" placeholder="email" name="correo" required>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control reservaInput" placeholder="telefono">
+                    <input type="text" class="form-control reservaInput" placeholder="telefono" name="telefono" required>
                 </div>
                 <div class="form-group">
                     <input type="submit" class="formSubmit" value="Reserva ahora">
