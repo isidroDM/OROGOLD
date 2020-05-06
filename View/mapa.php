@@ -1,6 +1,6 @@
 <div class="row mapaAl">
     <div class="col-sm-6 mapaIzq p-0">
-        <div id="map" style="height: 70vh; width: 40vw; z-index: 2; position: absolute;">
+        <div id="map" style="height: 70vh; width: 70vw; z-index: 2; position: relative; top:-15%; left: 20%">
         </div>
 
 
@@ -73,7 +73,7 @@
         </div>
 
     </div>
-    <div class="col-sm-6 mapaIzq p-0">
+    <div class="col-sm-6 mapaIzq">
         <div class="mapaDer">
         <p class="subTratamientos">HORARIOS</p>
         <p class="textoTratamientos">Lunes a viernes de 10:00 a 19:30</p>

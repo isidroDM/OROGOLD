@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row header">
     <div class="col-sm-4 text-center">
         <img class="logo" src="assets/img/cropped-orogold-logo-dgold.png">
     </div>

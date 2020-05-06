@@ -11,19 +11,26 @@
    width:260px; 
    height:8vh; 
 }
-#header{
-    position: fixed;
+.header{
+    height: auto;
+     position: fixed;
+  top: 0;
     width: 100%;
     z-index: 15;
+    padding-top: 10px;
+   margin-bottom: 15px;
+  
 }
 #header>div{
-    padding: 20px;
+   
     background-color:black;
 }
 .alignBoton{
     display: flex; 
-    height: 8vh; 
+    height: auto; 
     align-items: center;
+    padding-bottom: 1%;
+    
 }
 .spanCorreo{
    color: #AA8543;
@@ -55,7 +62,9 @@
 /*  ------------------------------------------------- Header */
 /* ---------------------------------------------------Reservar */
 .reservar{
-    height: 90vh;
+    
+    padding-top: 16vh;
+    height: auto;
 background: url(../assets/img/bg-principal.jpg) no-repeat  ;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -70,29 +79,24 @@ justify-content : center;
 align-items : center;
 }
 .formulario{
-    /*display:inline-block; */
-    padding: 45px 29px;
+    display:inline-block; 
+    padding: 2% 2%;
     
     background-color: white;
     border-radius: 7px;
 }
 .reservaInput{
    font-size: 35px;
-    height: 80px;
-    
- 
+    height: auto;
 }
 .tituloPadre{
     display : flex;
     justify-content : center;
     align-items : center;
 }
-.titulo{
-     display:inline-block;
-     
-}
+
 #reservarTitulo{
-    font-size: 135px;
+    font-size: 120px;
     color: #AA8543;
     font-family: Verdana;
 }
@@ -194,7 +198,7 @@ align-items : center;
 }
 #address{
     height: 50px;
-    font-size: 30px;
+    font-size: 15px;
     width: 100%;
 }
 .verMapa{
@@ -221,11 +225,13 @@ align-items : center;
   
 }
 .mapaAl{
-    height: 90vh;
+    position: relative;
+    height: auto;
    
 }
 .mapaAl2{
-    height: content-box;
+    position: relative;
+    height: 60vh;
    
 }
 .mapaDer{
@@ -233,8 +239,8 @@ align-items : center;
 
 }
 .oportunidad{
-        height: 60vh;
-
+        height: auto;
+position: relative;
      background-color: white;
     text-align: center;
     padding: 20px;
@@ -259,5 +265,6 @@ align-items : center;
    font-family: Verdana;
 }
 .footer{
+    position: relative;
     height: 40vh;
 }
