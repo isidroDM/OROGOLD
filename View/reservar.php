@@ -1,7 +1,7 @@
-<div class="row reservar">
+<div class="row reservar" id="anclaReservar">
     <div class="col-sm-6 tituloPadre">
         <div class="titulo">
-        <p id="reservarTitulo">OROGOLD</p>
+        <p id="reservarTitulo" name="reservarTitulo">OROGOLD</p>
         <p class="reservarTexto">Cuando la belleza y glamour</p>
         <p class="reservarTexto"> van de la mano.</p>
         </div>

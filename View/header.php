@@ -8,7 +8,7 @@
                 <span class="spanCorreo"><strong>orogoldspa@orogold.com</strong></span>
             </div>
             <div class="col-sm-4 text-left">
-                <button type="button" class="btnReserva">Reserva ahora</button>
+                <a id="reservarBoton2" href="#anclaReservar" data-ancla="anclaReservar"><button type="button" class="btnReserva">Reserva ahora</button></a>
             </div>
         </div>
     </div>

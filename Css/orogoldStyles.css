@@ -30,7 +30,8 @@
    font-size: 21px; 
    padding-right: 20px;
    font-family: Verdana;
-}
+   
+   }
 .btnReserva{
     padding: 15px 32px;
     border: solid 3px;
@@ -55,12 +56,6 @@
 /* ---------------------------------------------------Reservar */
 .reservar{
     height: 90vh;
-    /*background-image: url(../assets/img/bg-principal.jpg);
-    background-repeat: no-repeat;
-    ba
-    
-    background-color: black;
-    background-position: -8vw -12vh;*/
 background: url(../assets/img/bg-principal.jpg) no-repeat  ;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -148,4 +143,121 @@ align-items : center;
     color: #AA8543;
     font-size: 40px;
     font-weight: bold;
+}
+/* --------------------------------- Tratamientos */
+/* ----------------------------------Quienes Somos */
+.quienesSomos{
+    height: 60vh;
+
+     background-color: black;
+    text-align: center;
+    padding: 20px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background: url(../assets/img/photo-1520473378652-85d9c4aee6cf.jpg) no-repeat  ;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-position: -8vw -65vh;
+   position: relative;
+}
+ #qSomos:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.textQuienes{
+   font-size: 35px;
+   color:white;
+}
+#titleQuienes{
+   color: #EDC61A;
+   font-size: 45px;
+}
+.buscadorMapa{
+    position: relative;
+    top: -42%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 3px;
+    border: 1px solid #999;
+    width: 500px;
+    
+    line-height: 55px;
+}
+#address{
+    height: 50px;
+    font-size: 30px;
+    width: 100%;
+}
+.verMapa{
+   padding: 20px 172px;
+    font-size: 22px;
+    color: black;
+    font-family: Verdana;
+    font-weight: bold;
+    background-color: #F3F3F3;
+    border-radius: 4px;
+    border: solid 5px;
+    border-color: black;
+}
+.verMapa:hover{
+    background-color: #AA8543;
+    border-color: #AA8543;
+    color:white;
+}
+.mapaIzq{
+   background-color: #F3F3F3;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+  
+}
+.mapaAl{
+    height: 90vh;
+   
+}
+.mapaAl2{
+    height: content-box;
+   
+}
+.mapaDer{
+     display : inline-block;
+
+}
+.oportunidad{
+        height: 60vh;
+
+     background-color: white;
+    text-align: center;
+    padding: 20px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    
+}
+.oportunidadText{
+    font-size: 30px;
+   color:black;
+   padding-bottom:100px;
+}
+.titleOportunidad{
+    color: #AA8543;
+   font-size: 65px;
+   font-weight: bold;
+}
+.spanCorreo2{
+    color: #AA8543;
+   font-size: 27px; 
+   font-family: Verdana;
+}
+.footer{
+    height: 40vh;
 }

@@ -7,7 +7,7 @@
         <div class="row tratamientos">
             <div class="col">
                 <img class="rounded-circle imgCircular" src="assets/img/photo-1516238840914-94dfc0c873ae.jpg">
-                <p class="subTratamientos">Masajes con oro</p>
+                <p class="subTratamientos">MASAJES CON ORO<br>&nbsp;</p>
                 <p class="textoTratamientos"><b>SPA Orogold</b> ofrece tratamientos especializados de la mano de nuestros profesionales
                     expertos, con productos excepcionales de marcas galardonadas.<br></p><p></p>
             </div>
